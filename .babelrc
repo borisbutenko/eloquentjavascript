@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env", {
+        "modules": false,
+        "loose": false,
+        "useBuiltIns": "usage"
+      }
+    ]
+  ],
+  "plugins": ["@babel/transform-runtime"],
+  "comments": false
+}
