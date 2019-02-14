@@ -1,5 +1,5 @@
 export default function (start, end) {
-  if (!Number(start + end) || start > end) {
+  if (!Number.isInteger(start) || !Number.isInteger(end) || start > end) {
     return
   }
   let array = []
