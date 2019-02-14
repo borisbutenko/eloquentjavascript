@@ -33,6 +33,7 @@ module.exports = {
     'no-trailing-spaces': 0,
     'template-curly-spacing': 0,
     'brace-style': 0,
+    'no-tabs': 0,
 
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
